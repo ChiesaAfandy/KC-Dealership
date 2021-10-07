@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" ng-app>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+
+    <title>KC Dealership</title>
+</head>
+
+<body ng-app="">
+
+    <!-- header -->
+    <div ng-include="'header.html'"></div>
+    <!-- End -->
+
+    
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 px-0 pt-5 pt-lg-2 mb-1">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade pt-3 pt-lg-0"
+                    data-ride="carousel">
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Image/FrontPageNissan.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-sm-block text-left">
+                                <h1>Welcome to KC Dealership</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Image/jaguarBack.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1>Browse Our Collection and Fullfill Your Dream</h1>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="row">
+                    <div
+                        class="col-12 col-lg-6 order-2 order-lg-1 my-auto px-5 d-flex justify-content-center py-5 py-lg-0">
+                        <div>
+                            <span class="d-none d-lg-block">
+                                <h2>Mitsubishi Lancer Evolution X GSR</h2>
+                                <h5>The most powerful model ever in the Lancer Evolution series</h5>
+                            </span>
+                            <span class="d-block d-lg-none">
+                                <h3>Mitsubishi Lancer Evolution X GSR</h3>
+                                <h5>The most powerful model ever in the Lancer Evolution series</h5>
+                            </span>
+                            <a href="carsDetailLancer.html"><button type="button" class="btn btn-dark px-lg-4 px-2">More on Mitsubishi Lancer Evo
+                                X</button></a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 px-0 order-1 order-lg-2 mb-2 mt-0 mb-lg-0 mt-lg-0">
+                        <img src="img/Image/LancerDrift.png" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="col-12 col-lg-6 px-0 order-3 order-lg-3 mb-2 mt-2 mb-lg-0 mt-lg-0">
+                        <img src="img/Image/SideViewPorche.png" alt="" class="img-fluid">
+                    </div>
+
+                    <div
+                        class="col-12 col-lg-6 order-4 order-lg-4 my-auto px-5 d-flex justify-content-center py-5 py-lg-0">
+                        <div>
+                            <span class="d-none d-lg-block">
+                                <h2>Porsche 911 Turbo S</h2>
+                                <h5>As unflappable and outrageously quick as ever, but it's a tad more fun this time
+                                    around</h5>
+                            </span>
+                            <span class="d-block d-lg-none">
+                                <h3>Porsche 911 Turbo S</h3>
+                                <h5>As unflappable and outrageously quick as ever, but it's a tad more fun this time
+                                    around</h5>
+                            </span>
+                            <a href="carsDetail911.html"><button type="button" class="btn btn-dark px-lg-4 px-2">More on Porsche 911 Turbo S</button></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <div ng-include="'footer.html'"></div>
+    <!-- End -->
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/47b1b45ee7.js" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
